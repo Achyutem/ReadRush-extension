@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rapid Reader</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Rapid Reader</h1>
+        <button id="theme-toggle"><span id="theme-icon">☀️</span></button>
+      </header>
+
+      <div class="main-content">
+        <div class="toggle-section">
+          <div class="toggle-container">
+            <span>Bionic Reading</span>
+            <label class="switch">
+              <input type="checkbox" id="bionic-toggle" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <p id="status-message">
+            Click the toggle to enable bionic reading on this page
+          </p>
+        </div>
+
+        <div class="settings-section">
+          <h2>Settings</h2>
+
+          <div class="setting-item">
+            <label for="bold-intensity">Bold Intensity</label>
+            <div class="range-container">
+              <input
+                type="range"
+                id="bold-intensity"
+                min="30"
+                max="70"
+                value="50"
+              />
+              <span id="intensity-value">50%</span>
+            </div>
+          </div>
+
+          <div class="setting-item">
+            <label for="bold-color">Highlight Color</label>
+            <input type="color" id="bold-color" value="#4a6fa5" />
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <button id="apply-settings">Apply Settings</button>
+      </footer>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

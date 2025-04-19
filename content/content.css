@@ -1,0 +1,22 @@
+.rapid-reader-bionic b {
+  color: #4a6fa5;
+  font-weight: 700;
+}
+
+.rapid-reader-dark-site .rapid-reader-bionic b {
+  color: #7aa2d8;
+}
+
+.rapid-reader-status {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4a6fa5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  z-index: 2147483647;
+  font-family: sans-serif;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s;
+}
