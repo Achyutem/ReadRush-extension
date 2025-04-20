@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Rapid Reader",
+  "name": "ReadRush",
   "version": "1.0",
   "description": "Enhances reading speed with bionic reading technique applied directly to webpages.",
   "icons": {

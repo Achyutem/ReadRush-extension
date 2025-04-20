@@ -1,6 +1,6 @@
-# 🚀 Rapid Reader - Chrome Extension
+# 🚀 ReadRush - Chrome Extension
 
-**Rapid Reader** is a simple and lightweight Chrome extension that enhances your reading experience by rapidly presenting text in a readable, speed-reading format.
+**ReadRush** is a simple and lightweight Chrome extension that enhances your reading experience by rapidly presenting text in a readable, speed-reading format.
 
 No installation from the Chrome Web Store required — just load it manually in Developer Mode!
 
@@ -21,14 +21,13 @@ No installation from the Chrome Web Store required — just load it manually in 
 1. **Download or clone this repository.**
 
 ```bash
-git clone https://github.com/yourusername/rapid-reader-extension.git 
+git clone https://github.com/achyutem/readrush-extension.git
 ```
+
 2. Open Chrome and go to chrome://extensions
 
 3. Enable Developer Mode (toggle in the top-right corner)
 
 4. Click "Load unpacked" and select the folder where this repo is located
 
-5. Done! You should now see the Rapid Reader icon in your extensions bar.
-
-
+5. Done! You should now see the ReadRush icon in your extensions bar.

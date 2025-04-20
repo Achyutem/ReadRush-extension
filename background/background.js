@@ -8,7 +8,7 @@ chrome.runtime.onInstalled.addListener(() => {
     },
   });
 
-  console.log("Rapid Reader extension installed successfully");
+  console.log("ReadRush extension installed successfully");
 });
 
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
